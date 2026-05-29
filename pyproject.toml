@@ -5,8 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "autogen>=0.13.2",
+    "autogen-agentchat>=0.7.5",
+    "autogen-ext>=0.7.5",
     "google-search-results>=2.4.2",
+    "langchain-openai>=1.2.2",
+    "langgraph>=1.2.2",
     "openai>=2.38.0",
     "pandas>=3.0.3",
     "python-dotenv>=1.2.2",
+    "tavily>=1.1.0",
 ]

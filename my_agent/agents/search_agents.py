@@ -1,5 +1,5 @@
 # --- 工具初始化与使用示例 ---
-from model.llm import HelloAgentsLLM
+from my_agent.model.llm import HelloAgentsLLM
 from tools.ToolExe import ToolExecutor
 from tools.search_tool import search
 import re

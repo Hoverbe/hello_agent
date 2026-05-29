@@ -1,5 +1,5 @@
 from typing import List, Dict, Any, Optional
-from model.llm import HelloAgentsLLM
+from my_agent.model.llm import HelloAgentsLLM
 
 
 INITIAL_PROMPT_TEMPLATE = """

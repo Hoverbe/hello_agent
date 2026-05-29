@@ -1,7 +1,7 @@
 # 假定 llm_client.py 中的 HelloAgentsLLM 类已经定义好
 # from llm_client import HelloAgentsLLM
 import ast
-from model.llm import HelloAgentsLLM
+from my_agent.model.llm import HelloAgentsLLM
 
 PLANNER_PROMPT_TEMPLATE = """
 你是一个顶级的AI规划专家。你的任务是将用户提出的复杂问题分解成一个由多个简单步骤组成的行动计划。
